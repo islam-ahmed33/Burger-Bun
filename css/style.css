@@ -144,3 +144,36 @@ nav ul li:first-of-type {
     float: left;
     margin: 50px calc(10% / 6);
 }
+.section2{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.section-inner2{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.text{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.text ul{
+    list-style: '\2661';
+    font-size: 30px;
+    line-height: 2;
+}
+.text ul li::marker{
+    color: #f90;
+    letter-spacing: 20px;
+}
+.burger-img {
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+.burger-img img{
+    height: 500px;
+}
